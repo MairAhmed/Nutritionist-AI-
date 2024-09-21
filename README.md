@@ -38,8 +38,6 @@ To run this application, you need to have the following installed:
 
 # How to Use:
 Upload a health-related image and provide text input to get AI-generated insights using the Google Gemini Pro Vision API.
-# License:
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgments:
 Google Gemini Pro Vision API for the AI insights.
