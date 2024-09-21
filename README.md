@@ -16,13 +16,34 @@ To run this application, you need to have the following installed:
 - google-generativeai
 - PIL (Python Imaging Library)
 
-run this code in the command prompt:
-      
-    pip install requirements.txt
 
 ## Setup Instructions:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/health-management-app.git
    cd health-management-app
+
+2. Install Dependencies:
+
+       pip install -r requirements.txt
+
+3. Add your Google API Key in a .env file:
+
+       GOOGLE_API_KEY=<your-google-api-key>
+
+4. Run the Application:
+
+       streamlit run health.py
+
+
+# How to Use:
+Upload a health-related image and provide text input to get AI-generated insights using the Google Gemini Pro Vision API.
+# License:
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Acknowledgments:
+Google Gemini Pro Vision API for the AI insights.
+Streamlit for the web framework.
+
+
 
